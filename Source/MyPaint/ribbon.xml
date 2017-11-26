@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name ="Hometab" Symbol ="ID_Home" LabelTitle ="Home"></Command>
+    <Command Name ="newFileMenu" Symbol ="ID_FILE_NEW" LabelTitle ="New">
+      <Command.LargeImages>
+        <Image>image/new.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name ="openFileMenu"  Symbol ="ID_FILE_OPEN" LabelTitle ="Open">
+      <Command.LargeImages>
+        <Image>image/open.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name ="saveFileMenu" Symbol ="ID_FILE_SAVE" LabelTitle ="Save">
+      <Command.LargeImages>
+        <Image>image/save.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name ="exitMenu" Symbol ="ID_FILE_EXIT" LabelTitle ="Exit">
+      <Command.LargeImages>
+        <Image>image/exit.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    
+     <Command Name="MenuShapes" LabelTitle="Shapes" />
+    <Command Name ="ShapesLine" Symbol ="ID_DRAWSHAPE_LINE" LabelTitle ="Line">
+      <Command.LargeImages>
+        <Image >image/line.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name ="ShapesRetangle" Symbol ="ID_DRAWSHAPE_RECTANGLE" LabelTitle ="Rectangle">
+      <Command.LargeImages>
+        <Image Id="205">image/rect.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+          <Command Name ="ShapesEllipse" Symbol ="ID_DRAWSHAPE_ELLIPSE" LabelTitle ="Ellipse">
+      <Command.LargeImages>
+        <Image>image/elip.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+     <Command Name="sizegroup" Symbol="ID_MenuSize" LabelTitle=""/>
+    <Command Name="SizeMenu" Symbol="ID_Size" LabelTitle="Size">
+      <Command.LargeImages>
+        <Image>image/size.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="Size1" Symbol="ID_SIZE_1" LabelTitle="">
+      <Command.LargeImages>
+        <Image>image/size1.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="Size2" Symbol="ID_SIZE_2" LabelTitle="">
+      <Command.LargeImages>
+        <Image>image/size2.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="Size3" Symbol="ID_SIZE_3" LabelTitle="">
+      <Command.LargeImages>
+        <Image>image/size3.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+   <Command Name="stylesgroup" Symbol="ID_MenuStyles" LabelTitle=""/>
+    <Command Name="StylesMenu" Symbol="ID_Styles" LabelTitle="Styles">
+        <Command.LargeImages>
+        <Image>image/styles.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="Styles1" Symbol="ID_STYLE_DASH" LabelTitle="">
+       <Command.LargeImages>
+        <Image>image/style1.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="Styles2" Symbol="ID_STYLE_DOT" LabelTitle="">
+      <Command.LargeImages>
+        <Image>image/style2.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+  <Command Name="Styles3" Symbol="ID_STYLE_SOLID" LabelTitle="">
+    <Command.LargeImages>
+        <Image>image/size3.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="Styles4" Symbol="ID_STYLE_DASHDOT" LabelTitle="">
+      <Command.LargeImages>
+        <Image>image/style2.bmp</Image>
+      </Command.LargeImages>
+    </Command>
+  </Application.Commands>
+  <Application.Views>
+    <Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="fileMenu">
+          <MenuGroup>
+            <Button CommandName="newFileMenu" />
+            <Button CommandName="openFileMenu" />
+            <Button CommandName="saveFileMenu" />
+          </MenuGroup>
+          <MenuGroup>
+            <Button CommandName="exitMenu" />
+          </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+      <Ribbon.Tabs>
+        <Tab CommandName="Hometab">
+          <Group CommandName="MenuShapes" SizeDefinition="ThreeButtons">
+               <Button CommandName='ShapesLine' />
+               <Button CommandName='ShapesRetangle' />
+                <Button CommandName='ShapesEllipse' />
+           </Group>
+          <Group CommandName="sizegroup" SizeDefinition="OneButton">
+          <DropDownButton CommandName='SizeMenu'>
+                        <MenuGroup Class='MajorItems'>
+                            <Button CommandName='Size1' />
+                            <Button CommandName='Size2' />
+                            <Button CommandName='Size3' />
+                        </MenuGroup>
+                    </DropDownButton>
+          </Group>
+        <Group CommandName="stylesgroup"  SizeDefinition="OneButton">
+           <DropDownButton CommandName='StylesMenu'>
+                        <MenuGroup Class='MajorItems'>
+                            <Button CommandName='Styles1' />
+                            <Button CommandName='Styles2' />
+                            <Button CommandName='Styles3' />
+                            <Button CommandName='Styles4' />
+                        </MenuGroup>
+                    </DropDownButton>
+        </Group>
+   </Tab>
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+</Application>

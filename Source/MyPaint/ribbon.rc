@@ -1,0 +1,129 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\ribbon.h"
+
+STRINGTABLE 
+BEGIN
+    ID_Home_LabelTitle_RESID L"Home" /* LabelTitle ID_Home_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW_LabelTitle_RESID L"New" /* LabelTitle ID_FILE_NEW_LabelTitle_RESID: (null) */
+END
+
+ID_FILE_NEW_LargeImages_RESID    BITMAP    "image\\new.bmp" /* LargeImages ID_FILE_NEW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPEN_LabelTitle_RESID L"Open" /* LabelTitle ID_FILE_OPEN_LabelTitle_RESID: (null) */
+END
+
+ID_FILE_OPEN_LargeImages_RESID    BITMAP    "image\\open.bmp" /* LargeImages ID_FILE_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_FILE_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_FILE_SAVE_LabelTitle_RESID: (null) */
+END
+
+ID_FILE_SAVE_LargeImages_RESID    BITMAP    "image\\save.bmp" /* LargeImages ID_FILE_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_FILE_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle ID_FILE_EXIT_LabelTitle_RESID: (null) */
+END
+
+ID_FILE_EXIT_LargeImages_RESID    BITMAP    "image\\exit.bmp" /* LargeImages ID_FILE_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    MenuShapes_LabelTitle_RESID L"Shapes" /* LabelTitle MenuShapes_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DRAWSHAPE_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_DRAWSHAPE_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_DRAWSHAPE_LINE_LargeImages_RESID    BITMAP    "image\\line.bmp" /* LargeImages ID_DRAWSHAPE_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_DRAWSHAPE_RECTANGLE_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_DRAWSHAPE_RECTANGLE_LabelTitle_RESID: (null) */
+END
+
+ID_DRAWSHAPE_RECTANGLE_LargeImages_RESID    BITMAP    "image\\rect.bmp" /* LargeImages ID_DRAWSHAPE_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_DRAWSHAPE_ELLIPSE_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_DRAWSHAPE_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+ID_DRAWSHAPE_ELLIPSE_LargeImages_RESID    BITMAP    "image\\elip.bmp" /* LargeImages ID_DRAWSHAPE_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_MenuSize_LabelTitle_RESID L"" /* LabelTitle ID_MenuSize_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_Size_LabelTitle_RESID L"Size" /* LabelTitle ID_Size_LabelTitle_RESID: (null) */
+END
+
+ID_Size_LargeImages_RESID    BITMAP    "image\\size.bmp" /* LargeImages ID_Size_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SIZE_1_LabelTitle_RESID L"" /* LabelTitle ID_SIZE_1_LabelTitle_RESID: (null) */
+END
+
+ID_SIZE_1_LargeImages_RESID    BITMAP    "image\\size1.bmp" /* LargeImages ID_SIZE_1_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SIZE_2_LabelTitle_RESID L"" /* LabelTitle ID_SIZE_2_LabelTitle_RESID: (null) */
+END
+
+ID_SIZE_2_LargeImages_RESID    BITMAP    "image\\size2.bmp" /* LargeImages ID_SIZE_2_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SIZE_3_LabelTitle_RESID L"" /* LabelTitle ID_SIZE_3_LabelTitle_RESID: (null) */
+END
+
+ID_SIZE_3_LargeImages_RESID    BITMAP    "image\\size3.bmp" /* LargeImages ID_SIZE_3_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_MenuStyles_LabelTitle_RESID L"" /* LabelTitle ID_MenuStyles_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_Styles_LabelTitle_RESID L"Styles" /* LabelTitle ID_Styles_LabelTitle_RESID: (null) */
+END
+
+ID_Styles_LargeImages_RESID    BITMAP    "image\\styles.bmp" /* LargeImages ID_Styles_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_STYLE_DASH_LabelTitle_RESID L"" /* LabelTitle ID_STYLE_DASH_LabelTitle_RESID: (null) */
+END
+
+ID_STYLE_DASH_LargeImages_RESID    BITMAP    "image\\style1.bmp" /* LargeImages ID_STYLE_DASH_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_STYLE_DOT_LabelTitle_RESID L"" /* LabelTitle ID_STYLE_DOT_LabelTitle_RESID: (null) */
+END
+
+ID_STYLE_DOT_LargeImages_RESID    BITMAP    "image\\style2.bmp" /* LargeImages ID_STYLE_DOT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_STYLE_SOLID_LabelTitle_RESID L"" /* LabelTitle ID_STYLE_SOLID_LabelTitle_RESID: (null) */
+END
+
+ID_STYLE_SOLID_LargeImages_RESID    BITMAP    "image\\size3.bmp" /* LargeImages ID_STYLE_SOLID_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_STYLE_DASHDOT_LabelTitle_RESID L"" /* LabelTitle ID_STYLE_DASHDOT_LabelTitle_RESID: (null) */
+END
+
+ID_STYLE_DASHDOT_LargeImages_RESID    BITMAP    "image\\style2.bmp" /* LargeImages ID_STYLE_DASHDOT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    fileMenu_LabelTitle_RESID L"Label:fileMenu" /* LabelTitle fileMenu_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "ribbon.bml"
